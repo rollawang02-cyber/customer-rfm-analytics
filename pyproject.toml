@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rfm"
+version = "1.0.0"
+description = "Customer behaviour analytics on UCI Online Retail: RFM, K-means segmentation, cohorts and probabilistic CLV"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scipy>=1.13",
+    "scikit-learn>=1.5",
+    "matplotlib>=3.10",
+    "duckdb>=1.1",
+]
+
+[project.optional-dependencies]
+dashboard = ["plotly>=5.22", "streamlit>=1.40"]
+notebook = ["jupyterlab>=4.2", "nbconvert>=7.16", "ipykernel>=6.29"]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,6 @@
+step,rows,revenue,rows_removed,revenue_change
+Raw extract,541909,9747747.93,0,0.0
+Exact duplicate lines,536641,9726006.95,5268,-21740.98
+No CustomerID (guest checkout),401604,8278519.42,135037,-1447487.53
+UnitPrice <= 0 (free / write-off),401564,8278519.42,40,0.0
+"Non-merchandise codes (postage, fees, adjustments)",399656,8265476.93,1908,-13042.49

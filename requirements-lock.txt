@@ -1,0 +1,13 @@
+# Exact versions the committed results were produced with (Python 3.13).
+# Also checked with pandas 2.2.3 / numpy 2.1.3 / matplotlib 3.10.0: same segment sizes and hold-out metrics.
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+duckdb==1.5.6
+plotly==7.1.0
+streamlit==1.66.0
+nbconvert==7.17.2
+ipykernel==7.4.0
+pytest==9.1.1

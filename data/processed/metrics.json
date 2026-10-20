@@ -1,0 +1,68 @@
+{
+  "raw_rows": 541909,
+  "clean_rows": 399656,
+  "customers": 4334,
+  "customers_clustered": 4322,
+  "net_revenue": 8269399.91,
+  "gross_revenue": 8737227.64,
+  "return_rate_value": 0.053544184640243686,
+  "guest_revenue_share": 0.14882649548226926,
+  "one_time_buyer_share": 0.34725426857406555,
+  "gini": 0.7068588299464755,
+  "top20_revenue_share": 0.7379795042813317,
+  "top1_revenue_share": 0.30154234623677556,
+  "tutorial_mean_monetary": 296.7611131597142,
+  "tutorial_revenue_captured": 0.14737471919639716,
+  "corrected_mean_monetary": 1908.0295131518228,
+  "sql_pandas_max_abs_diff": 2.9103830456733704e-10,
+  "median_gap_days": 28.0,
+  "p90_gap_days": 111.0,
+  "silhouette_k5": 0.31740976632874807,
+  "stability_ari_k5": 0.8812532276677641,
+  "tree_fidelity": 0.8422008135302933,
+  "kmeans_vs_rfm_ami": 0.5249232367731701,
+  "segment_sizes": {
+    "Champions": 357,
+    "Loyal": 965,
+    "New / Promising": 873,
+    "At Risk": 1000,
+    "Hibernating": 1127
+  },
+  "segment_revenue_share": {
+    "Champions": 0.533,
+    "Loyal": 0.2356,
+    "New / Promising": 0.0386,
+    "At Risk": 0.157,
+    "Hibernating": 0.0358
+  },
+  "bgnbd_params": {
+    "r": 0.8217934000225674,
+    "alpha": 70.17474922467595,
+    "a": 0.003076345631010584,
+    "b": 128.14206662845731
+  },
+  "gamma_gamma_params": {
+    "p": 2.292871348294447,
+    "q": 3.4948698851553206,
+    "gamma": 443.3941770128475
+  },
+  "gg_freq_spend_corr": 0.16971652331202006,
+  "share_p_alive_above_0_95": 1.0,
+  "clv_total_180d": 4319171.079237165,
+  "holdout_actual_total": 4428,
+  "holdout_bgnbd_total": 3297.7075398000384,
+  "holdout_bgnbd_mae": 0.9288971853687551,
+  "holdout_bgnbd_spearman": 0.49909986352286934,
+  "holdout_repeat_rate_total": 3119.7717162028093,
+  "holdout_repeat_rate_mae": 0.9049728320411982,
+  "holdout_repeat_rate_spearman": 0.5017287709868848,
+  "holdout_run_rate_total": 7277.232093742436,
+  "holdout_run_rate_mae": 1.6320759947118546,
+  "holdout_run_rate_spearman": 0.4163629433648598,
+  "calibration_params": {
+    "r": 0.7170928577368018,
+    "alpha": 66.61811541444989,
+    "a": 0.0005169326005887934,
+    "b": 366.43911366035155
+  }
+}
